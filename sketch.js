@@ -76,28 +76,13 @@
             mq.x = mq.x + -7; 
           }
           
-          /*if(mq.isTouching(coinGroup)){
-            coinGroup.destroyEach();
-            coinSound.play();
-            score = score + 1;
-          }  
-          */
+         
           spawnCoins();
           spawnObstacles();
             
           }
           
-           /* if(mq.isTouching(obstacleGroup)){
-            coinGroup.destroyEach();
-            obstacleGroup.destroyEach();
-            track.velocityX = 0;
-            gameState = END
-            mq.addImage(gameImg);
-            mq.x=200;
-            mq.y=80;
-            mq.scale=0.9;
-            obstacleSound.play();
-          }   */ 
+           
           
           drawSprites();
           
